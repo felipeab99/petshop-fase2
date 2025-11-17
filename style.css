@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px;
+}
+
+/* Imagens do carrossel */
+.carousel-img {
+    height: 250px;     
+    object-fit: cover;  
+}
+
+/* Ajuste em celular */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 180px;
+    }
+}
+
+/* Títulos */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Texto principal */
+p.lead {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulários */
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+}
+
+.btn-enviar {
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #0b5ed7;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0d6efd;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+}
