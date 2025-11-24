@@ -5,31 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop Online</title>
 
-    
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    
+    <!-- CSS do projeto -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-   
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">PetShop Online</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
-                <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendamento</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="agendamento.html">Agendamento</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Carrossel -->
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 
@@ -56,14 +76,18 @@
         </button>
     </div>
 
+    <!-- Conteúdo -->
     <section class="container text-center mt-5 mb-5">
-        <h2 class="mb-3">Bem-vindo a PetShop Online!</h2>
-        <p class="lead">Aqui seu pet recebe todo cuidado com carinho </p>
+        <h2 class="mb-3">Bem-vindo ao PetShop Online!</h2>
+        <p class="lead">Aqui seu pet recebe todo cuidado com carinho e atenção.</p>
     </section>
 
+    <!-- Scripts Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Script do projeto -->
     <script src="script.js"></script>
 
 </body>
 </html>
+
